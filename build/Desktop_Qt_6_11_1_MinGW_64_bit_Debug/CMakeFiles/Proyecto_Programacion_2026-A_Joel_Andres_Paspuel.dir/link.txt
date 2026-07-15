@@ -1,0 +1,3 @@
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\Proyecto_Programacion_2026-A_Joel_Andres_Paspuel.dir/objects.a
+C:\Qt\Tools\mingw1310_64\bin\ar.exe qc CMakeFiles\Proyecto_Programacion_2026-A_Joel_Andres_Paspuel.dir/objects.a @CMakeFiles\Proyecto_Programacion_2026-A_Joel_Andres_Paspuel.dir\objects1.rsp
+C:\Qt\Tools\mingw1310_64\bin\g++.exe -g -mwindows -Wl,--whole-archive CMakeFiles\Proyecto_Programacion_2026-A_Joel_Andres_Paspuel.dir/objects.a -Wl,--no-whole-archive -o Proyecto_Programacion_2026-A_Joel_Andres_Paspuel.exe -Wl,--out-implib,libProyecto_Programacion_2026-A_Joel_Andres_Paspuel.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Proyecto_Programacion_2026-A_Joel_Andres_Paspuel.dir\linkLibs.rsp

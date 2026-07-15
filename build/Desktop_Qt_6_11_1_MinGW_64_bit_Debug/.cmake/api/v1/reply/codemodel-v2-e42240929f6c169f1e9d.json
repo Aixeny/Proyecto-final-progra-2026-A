@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-dc480510d6782b1ac6ac.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Proyecto_Programacion_2026-A_Joel_Andres_Paspuel",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Proyecto_Programacion_2026-A_Joel_Andres_Paspuel::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Proyecto_Programacion_2026-A_Joel_Andres_Paspuel-Debug-57f9b4263af40f9d03a9.json",
+					"name" : "Proyecto_Programacion_2026-A_Joel_Andres_Paspuel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Proyecto_Programacion_2026-A_Joel_Andres_Paspuel_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Proyecto_Programacion_2026-A_Joel_Andres_Paspuel_autogen-Debug-abd4e17754cf2b15f1b1.json",
+					"name" : "Proyecto_Programacion_2026-A_Joel_Andres_Paspuel_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Proyecto_Programacion_2026-A_Joel_Andres_Paspuel_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Proyecto_Programacion_2026-A_Joel_Andres_Paspuel_autogen_timestamp_deps-Debug-e65bab35ce86a6f11f81.json",
+					"name" : "Proyecto_Programacion_2026-A_Joel_Andres_Paspuel_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/joela/OneDrive/Documentos/Proyecto_Programacion_2026-A_Joel_Andres_Paspuel/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug",
+		"source" : "C:/Users/joela/OneDrive/Documentos/Proyecto_Programacion_2026-A_Joel_Andres_Paspuel"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
