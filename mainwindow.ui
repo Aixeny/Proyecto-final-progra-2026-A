@@ -65,7 +65,7 @@
      <string>Biblioteca virtual </string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="btn_registrar">
     <property name="geometry">
      <rect>
       <x>100</x>
@@ -78,7 +78,7 @@
      <string>Registrar</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="btn_actualizar">
     <property name="geometry">
      <rect>
       <x>100</x>
@@ -91,7 +91,7 @@
      <string>Actualizar</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_4">
+   <widget class="QPushButton" name="btn_eliminar">
     <property name="geometry">
      <rect>
       <x>100</x>
@@ -104,7 +104,7 @@
      <string>Eliminar</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_5">
+   <widget class="QPushButton" name="btn_ver">
     <property name="geometry">
      <rect>
       <x>100</x>
@@ -168,7 +168,7 @@
        <string>Registro de libros</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_6">
+     <widget class="QPushButton" name="btn_registrar_registro">
       <property name="geometry">
        <rect>
         <x>360</x>
@@ -254,10 +254,10 @@
        </font>
       </property>
       <property name="text">
-       <string>Puntuacion: </string>
+       <string>Calificacion:</string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit">
+     <widget class="QLineEdit" name="txt_nombre_registro">
       <property name="geometry">
        <rect>
         <x>330</x>
@@ -267,7 +267,7 @@
        </rect>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_2">
+     <widget class="QLineEdit" name="txt_autor_registro">
       <property name="geometry">
        <rect>
         <x>330</x>
@@ -277,7 +277,7 @@
        </rect>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_3">
+     <widget class="QLineEdit" name="txt_fecha_registro">
       <property name="geometry">
        <rect>
         <x>330</x>
@@ -287,7 +287,7 @@
        </rect>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_4">
+     <widget class="QLineEdit" name="txt_calificacion_registro">
       <property name="geometry">
        <rect>
         <x>330</x>
@@ -337,7 +337,7 @@
        <string>Nombre del libro: </string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_5">
+     <widget class="QLineEdit" name="txt_libro_actualizar">
       <property name="geometry">
        <rect>
         <x>190</x>
@@ -347,7 +347,7 @@
        </rect>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_7">
+     <widget class="QPushButton" name="btn_buscar_actualizar">
       <property name="geometry">
        <rect>
         <x>480</x>
@@ -360,7 +360,7 @@
        <string>Buscar</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_8">
+     <widget class="QPushButton" name="btn_actualizar_actualizar">
       <property name="geometry">
        <rect>
         <x>480</x>
@@ -373,7 +373,7 @@
        <string>Actualizar</string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_6">
+     <widget class="QLineEdit" name="txt_id_actualizar">
       <property name="geometry">
        <rect>
         <x>360</x>
@@ -383,7 +383,7 @@
        </rect>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_7">
+     <widget class="QLineEdit" name="txt_nombre_actualizar">
       <property name="geometry">
        <rect>
         <x>360</x>
@@ -393,7 +393,7 @@
        </rect>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_8">
+     <widget class="QLineEdit" name="txt_autor_actualizar">
       <property name="geometry">
        <rect>
         <x>360</x>
@@ -403,7 +403,7 @@
        </rect>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_9">
+     <widget class="QLineEdit" name="txt_fecha_actualizar">
       <property name="geometry">
        <rect>
         <x>360</x>
@@ -413,7 +413,7 @@
        </rect>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_10">
+     <widget class="QLineEdit" name="txt_calificacion_actualizar">
       <property name="geometry">
        <rect>
         <x>360</x>
@@ -458,7 +458,7 @@
        </font>
       </property>
       <property name="text">
-       <string>Puntuacion:</string>
+       <string>Calificacion:</string>
       </property>
      </widget>
      <widget class="QLabel" name="label_16">
@@ -574,7 +574,7 @@
        <string>Libros Registrados</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="btn_Recargar">
+     <widget class="QPushButton" name="btn_Recargar_ver">
       <property name="geometry">
        <rect>
         <x>390</x>
@@ -589,7 +589,7 @@
      </widget>
     </widget>
     <widget class="QWidget" name="page_Eliminar">
-     <widget class="QPushButton" name="pushButton_9">
+     <widget class="QPushButton" name="btn_buscar_eliminar">
       <property name="geometry">
        <rect>
         <x>490</x>
@@ -621,7 +621,7 @@
        <string>Eliminar libro</string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_11">
+     <widget class="QLineEdit" name="txt_libro_eliminar">
       <property name="geometry">
        <rect>
         <x>200</x>
@@ -650,7 +650,7 @@
        <string>Nombre del libro: </string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_10">
+     <widget class="QPushButton" name="btn_eliminar_eliminar">
       <property name="geometry">
        <rect>
         <x>490</x>
@@ -663,7 +663,7 @@
        <string>Eliminar</string>
       </property>
      </widget>
-     <widget class="QTableWidget" name="tabla_libros_2">
+     <widget class="QTableWidget" name="tabla_eliminar">
       <property name="geometry">
        <rect>
         <x>10</x>
