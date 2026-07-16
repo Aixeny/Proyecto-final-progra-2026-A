@@ -24,7 +24,8 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(169, 255, 252);</string>
+     <string notr="true">
+background-color: rgb(210, 251, 255);</string>
     </property>
     <property name="text">
      <string/>
@@ -40,7 +41,8 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(57, 57, 57);</string>
+     <string notr="true">
+background-color: rgb(232, 232, 232);</string>
     </property>
     <property name="text">
      <string/>
@@ -117,28 +119,6 @@
      <string>Ver</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_5">
-    <property name="geometry">
-     <rect>
-      <x>40</x>
-      <y>110</y>
-      <width>371</width>
-      <height>51</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Kristen ITC</family>
-      <pointsize>24</pointsize>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true"/>
-    </property>
-    <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;Menu de opciones&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-    </property>
-   </widget>
    <widget class="QStackedWidget" name="stackedWidget">
     <property name="geometry">
      <rect>
@@ -149,7 +129,8 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(148, 148, 148);</string>
+     <string notr="true">
+background-color: rgb(255, 111, 113);</string>
     </property>
     <widget class="QWidget" name="page_Registrar">
      <widget class="QLabel" name="label_7">
@@ -759,6 +740,25 @@
       </column>
      </widget>
     </widget>
+   </widget>
+   <widget class="QLabel" name="label_21">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>110</y>
+      <width>381</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Kristen ITC</family>
+      <pointsize>24</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Menu de opciones</string>
+    </property>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">

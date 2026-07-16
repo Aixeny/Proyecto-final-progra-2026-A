@@ -483,4 +483,5 @@ CMakeFiles/Proyecto_Programacion_2026-A_Joel_Andres_Paspuel.dir/mainwindow.cpp.o
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/QMessageBox \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qmessagebox.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qdialog.h \
- C:/Qt/6.11.1/mingw_64/include/QtWidgets/qdialogbuttonbox.h
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/qdialogbuttonbox.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/QtGlobal

@@ -35,7 +35,6 @@ public:
     QPushButton *btn_actualizar;
     QPushButton *btn_eliminar;
     QPushButton *btn_ver;
-    QLabel *label_5;
     QStackedWidget *stackedWidget;
     QWidget *page_Registrar;
     QLabel *label_7;
@@ -75,6 +74,7 @@ public:
     QLabel *label_20;
     QPushButton *btn_eliminar_eliminar;
     QTableWidget *tabla_eliminar;
+    QLabel *label_21;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -88,11 +88,13 @@ public:
         label = new QLabel(centralwidget);
         label->setObjectName("label");
         label->setGeometry(QRect(-10, 0, 1131, 91));
-        label->setStyleSheet(QString::fromUtf8("background-color: rgb(169, 255, 252);"));
+        label->setStyleSheet(QString::fromUtf8("\n"
+"background-color: rgb(210, 251, 255);"));
         label_3 = new QLabel(centralwidget);
         label_3->setObjectName("label_3");
         label_3->setGeometry(QRect(-10, 90, 481, 481));
-        label_3->setStyleSheet(QString::fromUtf8("background-color: rgb(57, 57, 57);"));
+        label_3->setStyleSheet(QString::fromUtf8("\n"
+"background-color: rgb(232, 232, 232);"));
         label_4 = new QLabel(centralwidget);
         label_4->setObjectName("label_4");
         label_4->setGeometry(QRect(420, 20, 351, 51));
@@ -112,15 +114,11 @@ public:
         btn_ver = new QPushButton(centralwidget);
         btn_ver->setObjectName("btn_ver");
         btn_ver->setGeometry(QRect(100, 270, 241, 51));
-        label_5 = new QLabel(centralwidget);
-        label_5->setObjectName("label_5");
-        label_5->setGeometry(QRect(40, 110, 371, 51));
-        label_5->setFont(font);
-        label_5->setStyleSheet(QString::fromUtf8(""));
         stackedWidget = new QStackedWidget(centralwidget);
         stackedWidget->setObjectName("stackedWidget");
         stackedWidget->setGeometry(QRect(460, 90, 651, 481));
-        stackedWidget->setStyleSheet(QString::fromUtf8("background-color: rgb(148, 148, 148);"));
+        stackedWidget->setStyleSheet(QString::fromUtf8("\n"
+"background-color: rgb(255, 111, 113);"));
         page_Registrar = new QWidget();
         page_Registrar->setObjectName("page_Registrar");
         label_7 = new QLabel(page_Registrar);
@@ -296,6 +294,10 @@ public:
         tabla_eliminar->setGeometry(QRect(10, 120, 631, 291));
         tabla_eliminar->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 255, 255);"));
         stackedWidget->addWidget(page_Eliminar);
+        label_21 = new QLabel(centralwidget);
+        label_21->setObjectName("label_21");
+        label_21->setGeometry(QRect(50, 110, 381, 51));
+        label_21->setFont(font);
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
@@ -320,7 +322,6 @@ public:
         btn_actualizar->setText(QCoreApplication::translate("MainWindow", "Actualizar", nullptr));
         btn_eliminar->setText(QCoreApplication::translate("MainWindow", "Eliminar", nullptr));
         btn_ver->setText(QCoreApplication::translate("MainWindow", "Ver", nullptr));
-        label_5->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p><span style=\" color:#ffffff;\">Menu de opciones</span></p></body></html>", nullptr));
         label_7->setText(QCoreApplication::translate("MainWindow", "Registro de libros", nullptr));
         btn_registrar_registro->setText(QCoreApplication::translate("MainWindow", "Registrar", nullptr));
         label_8->setText(QCoreApplication::translate("MainWindow", "Nombre: ", nullptr));
@@ -362,6 +363,7 @@ public:
         ___qtablewidgetitem8->setText(QCoreApplication::translate("MainWindow", "Fin de lectura: ", nullptr));
         QTableWidgetItem *___qtablewidgetitem9 = tabla_eliminar->horizontalHeaderItem(4);
         ___qtablewidgetitem9->setText(QCoreApplication::translate("MainWindow", "Puntuacion: ", nullptr));
+        label_21->setText(QCoreApplication::translate("MainWindow", "Menu de opciones", nullptr));
     } // retranslateUi
 
 };
