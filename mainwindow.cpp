@@ -166,7 +166,8 @@ void MainWindow::on_btn_buscar_actualizar_clicked()
     QList<QStringList> libros = leer_Archivo();
     bool encontrado = false;
 
-    for (const auto &fields : qAsConst(libros)) {
+    for (int i = 0; i < libros.size(); ++i){
+        const QStringList &fields = libros.at(i);
         if (fields.size() >= 5 && fields.at(1).compare(nombreBuscar, Qt::CaseInsensitive) == 0) {
             ui->txt_id_actualizar->setText(fields.at(0));
             ui->txt_nombre_actualizar->setText(fields.at(1));
@@ -217,7 +218,8 @@ void MainWindow::actualizar_Archivo(int id, const QString &nombre, const QString
     }
 
     QTextStream out(&file);
-    for (const auto &fields : qAsConst(libros)) {
+    for (int i = 0; i < libros.size(); ++i) {
+        const QStringList &fields = libros.at(i);
         out << fields.join(",") << "\n";
     }
     file.close();
@@ -267,7 +269,8 @@ void MainWindow::cargar_Tabla_Eliminar(const QString &nombreBuscar)
     if (nombreBuscar.isEmpty()) {
         filtrados = todos;
     } else {
-        for (const QStringList &fields : todos) {
+        for (int i = 0; i < todos.size(); ++i) {
+            const QStringList &fields = todos.at(i);
             if (fields.size() >= 5 && fields.at(1).contains(nombreBuscar, Qt::CaseInsensitive)) {
                 filtrados.append(fields);
             }
@@ -300,7 +303,8 @@ void MainWindow::eliminar_Archivo(int id)
     bool eliminado = false;
     QList<QStringList> nuevosLibros;
 
-    for (const auto &fields : qAsConst(libros)) {
+    for (int i = 0; i < nuevosLibros.size(); ++i) {
+        const QStringList &fields = nuevosLibros.at(i);
         if (fields.at(0).toInt() != id) {
             nuevosLibros.append(fields);
         } else {
