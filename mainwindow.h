@@ -22,7 +22,19 @@ private slots:
 
     void on_btn_ver_clicked();
 
+    void on_btn_actualizar_clicked();
+
+    void on_btn_eliminar_clicked();
+
+    void on_btn_registrar_registro_clicked();
+
+    void on_btn_Recargar_ver_clicked();
+
 private:
     Ui::MainWindow *ui;
+    QString archivo;
+    void guardar_Archivo(const QString &nombre, const QString &autor, const QString &fecha, const QString &calificacion);
+    QList<QStringList> leer_Archivo();
+    void tabla_Ver();
 };
 #endif // MAINWINDOW_H

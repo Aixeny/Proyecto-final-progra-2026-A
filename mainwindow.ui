@@ -49,7 +49,7 @@
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
-      <x>380</x>
+      <x>420</x>
       <y>20</y>
       <width>351</width>
       <height>51</height>
@@ -148,6 +148,9 @@
       <height>481</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(148, 148, 148);</string>
+    </property>
     <widget class="QWidget" name="page_Registrar">
      <widget class="QLabel" name="label_7">
       <property name="geometry">
@@ -176,6 +179,9 @@
         <width>241</width>
         <height>51</height>
        </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
       </property>
       <property name="text">
        <string>Registrar</string>
@@ -266,6 +272,9 @@
         <height>41</height>
        </rect>
       </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
      </widget>
      <widget class="QLineEdit" name="txt_autor_registro">
       <property name="geometry">
@@ -275,6 +284,9 @@
         <width>271</width>
         <height>41</height>
        </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
       </property>
      </widget>
      <widget class="QLineEdit" name="txt_fecha_registro">
@@ -286,6 +298,9 @@
         <height>41</height>
        </rect>
       </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
      </widget>
      <widget class="QLineEdit" name="txt_calificacion_registro">
       <property name="geometry">
@@ -295,6 +310,9 @@
         <width>271</width>
         <height>41</height>
        </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
       </property>
      </widget>
     </widget>
@@ -346,6 +364,9 @@
         <height>41</height>
        </rect>
       </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
      </widget>
      <widget class="QPushButton" name="btn_buscar_actualizar">
       <property name="geometry">
@@ -355,6 +376,9 @@
         <width>151</width>
         <height>41</height>
        </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
       </property>
       <property name="text">
        <string>Buscar</string>
@@ -369,6 +393,9 @@
         <height>41</height>
        </rect>
       </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
       <property name="text">
        <string>Actualizar</string>
       </property>
@@ -382,6 +409,9 @@
         <height>41</height>
        </rect>
       </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
      </widget>
      <widget class="QLineEdit" name="txt_nombre_actualizar">
       <property name="geometry">
@@ -391,6 +421,9 @@
         <width>271</width>
         <height>41</height>
        </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
       </property>
      </widget>
      <widget class="QLineEdit" name="txt_autor_actualizar">
@@ -402,6 +435,9 @@
         <height>41</height>
        </rect>
       </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
      </widget>
      <widget class="QLineEdit" name="txt_fecha_actualizar">
       <property name="geometry">
@@ -412,6 +448,9 @@
         <height>41</height>
        </rect>
       </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
      </widget>
      <widget class="QLineEdit" name="txt_calificacion_actualizar">
       <property name="geometry">
@@ -421,6 +460,9 @@
         <width>271</width>
         <height>41</height>
        </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
       </property>
      </widget>
      <widget class="QLabel" name="label_14">
@@ -529,6 +571,9 @@
         <height>341</height>
        </rect>
       </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
       <column>
        <property name="text">
         <string>ID: </string>
@@ -558,7 +603,7 @@
      <widget class="QLabel" name="label_6">
       <property name="geometry">
        <rect>
-        <x>140</x>
+        <x>180</x>
         <y>10</y>
         <width>381</width>
         <height>51</height>
@@ -583,6 +628,9 @@
         <height>51</height>
        </rect>
       </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
       <property name="text">
        <string>Recargar</string>
       </property>
@@ -597,6 +645,9 @@
         <width>151</width>
         <height>41</height>
        </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
       </property>
       <property name="text">
        <string>Buscar</string>
@@ -630,6 +681,9 @@
         <height>41</height>
        </rect>
       </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
      </widget>
      <widget class="QLabel" name="label_20">
       <property name="geometry">
@@ -659,6 +713,9 @@
         <height>41</height>
        </rect>
       </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
       <property name="text">
        <string>Eliminar</string>
       </property>
@@ -671,6 +728,9 @@
         <width>631</width>
         <height>291</height>
        </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
       </property>
       <column>
        <property name="text">
