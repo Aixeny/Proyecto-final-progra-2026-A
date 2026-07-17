@@ -1,0 +1,32 @@
+# Archivos de configuración locales de Qt Creator
+*.user
+*.user.*
+*.autosave
+
+# Carpetas de compilación (generadas por Qt)
+build-*/
+release/
+debug/
+
+# Archivos temporales generados por el sistema
+*.tmp
+*.swp
+*.swo
+*.log
+
+# Archivos de sistema de Windows
+Thumbs.db
+Desktop.ini
+
+# Archivos de compilación específicos
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+
+# Archivos de backup
+*~

@@ -1,0 +1,35 @@
+[33mcommit ece3fc8691c27d19dee8071849b4a517d928cc19[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Aixeny <joelandres2809@gmail.com>
+Date:   Wed Jul 15 21:27:46 2026 -0500
+
+    Arreglo de errores warning
+
+[33mcommit 1ee9d05507181c78c941f82d9333efe457c50ba2[m
+Author: Aixeny <joelandres2809@gmail.com>
+Date:   Wed Jul 15 21:12:12 2026 -0500
+
+    Cambio en los colores de la interface, disponible actualizar, disponible eliminar, pequeños warning en amarillo
+
+[33mcommit a828042d8b1ed4e0f081ecac3d6559d3091aa4ac[m
+Author: Aixeny <joelandres2809@gmail.com>
+Date:   Wed Jul 15 20:26:27 2026 -0500
+
+    Cambio de fondo, reacion del archivo.txt, finalizada la pestaña de registro y lectura
+
+[33mcommit b383235b38034080bc88460e5585c578da318f29[m
+Author: Aixeny <joelandres2809@gmail.com>
+Date:   Wed Jul 15 19:04:23 2026 -0500
+
+    Cambio de interfaces con botones y nombres diferenciales entre objetos
+
+[33mcommit f72d6c691cabf3045f3af8b4a2ddae0508577040[m
+Author: Aixeny <joelandres2809@gmail.com>
+Date:   Wed Jul 15 18:03:16 2026 -0500
+
+    Añadir botones e interfaces sin nombres diferenciales
+
+[33mcommit 8f8fd8189c194a7a89301b474d988ec0895de812[m
+Author: Aixeny <joelandres2809@gmail.com>
+Date:   Wed Jul 15 13:42:06 2026 -0500
+
+    Version 0.0
