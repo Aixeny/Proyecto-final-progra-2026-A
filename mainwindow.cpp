@@ -303,8 +303,8 @@ void MainWindow::eliminar_Archivo(int id)
     bool eliminado = false;
     QList<QStringList> nuevosLibros;
 
-    for (int i = 0; i < nuevosLibros.size(); ++i) {
-        const QStringList &fields = nuevosLibros.at(i);
+    for (int i = 0; i < libros.size(); ++i) {
+        const QStringList &fields = libros.at(i);
         if (fields.at(0).toInt() != id) {
             nuevosLibros.append(fields);
         } else {
